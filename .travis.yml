@@ -34,7 +34,7 @@ env:
     - TOX_ENV=py34-django1.8-drf3.1
 
 matrix:
-  fast_finish: true
+  fast_finish: false
 
 install:
   - pip install tox
